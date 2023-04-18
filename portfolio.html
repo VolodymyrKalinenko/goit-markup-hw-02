@@ -3,56 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=
-    , initial-scale=1.0"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
     />
     <title>Document</title>
   </head>
   <body>
-    <!--Header section-->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
-    </header>
+   <!--Header section-->
+   <header class="header">
+    <nav class="header-nav">
+      <a class="header-link link" href="./index.html">
+        <span class="logo">web</span>
+        <span class="logo-text">studio</span></a>
+      <ul class="header-list list">
+        <li class="header-item"><a href="./index.html" class="link"><span class="nav-item-loc">Studio</span></a></li>
+        <li class="header-item"><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li class="header-item"><a href="" class="link">Contacts</a></li>
+      </ul>
+    </nav>
+    <address class="contact">
+      <ul class="contact-list list">
+        <li class="contact-mail"><a href="mailto:info@devstudio.com" class="link"> info@devstudio.com </a></li>
+        <li class="contact-tel"><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
+    </address>
+  </header>
     <main>
       <!--Nav button-->
       <section>
-        <ul>
-          <li><button tupe="button">All</button></li>
-          <li><button tupe="button">Web Site</button></li>
-          <li><button tupe="button">App</button></li>
-          <li><button tupe="button">Design</button></li>
-          <li><button tupe="button">Marketing</button></li>
+        <ul class="nav-btn list">
+          <li><button tupe="button" class="first-main-btn">All</button></li>
+          <li><button tupe="button" class="main-btn">Web Site</button></li>
+          <li><button tupe="button" class="main-btn">App</button></li>
+          <li><button tupe="button" class="main-btn">Design</button></li>
+          <li><button tupe="button" class="main-btn">Marketing</button></li>
         </ul>
       </section>
       <!--Portfolio-->
-      <section>
-        <ul>
-          <li>
+      <section class="row-section">
+        <ul class="first-row list">
+          <li >
             <img
               src="./images/portfolio/img1.jpg"
               alt="bank app"
               width="360"
               height="300"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="row-title">Banking App Interface Concept</h3>
+            <p class="row-text">App</p>
           </li>
           <li>
             <img
@@ -61,8 +69,8 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="row-title">Cashless Payment</h3>
+            <p class="row-text">Marketing</p>
           </li>
           <li>
             <img
@@ -71,9 +79,11 @@
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="row-title">Meditation App</h3>
+            <p class="row-text">App</p>
           </li>
+          </ul>
+          <ul>
           <li>
             <img
               src="./images/portfolio/img4.jpg"
@@ -81,8 +91,8 @@
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>App</p>
+            <h3 class="row-title">Taxi Service</h3>
+            <p class="row-text">App</p>
           </li>
           <li>
             <img
@@ -91,8 +101,8 @@
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="row-title">Screen Illustrations</h3>
+            <p class="row-text">Design</p>
           </li>
           <li>
             <img
@@ -101,9 +111,11 @@
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="row-title">Online Courses</h3>
+            <p class="row-text">Marketing</p>
           </li>
+        </ul>
+        <ul>
           <li>
             <img
               src="./images/portfolio/img7.jpg"
@@ -111,8 +123,8 @@
               width="360"
               height="300"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h3 class="row-title">Instagram Stories Concept</h3>
+            <p class="row-text">Design</p>
           </li>
           <li>
             <img
@@ -121,8 +133,8 @@
               width="360"
               height="300"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h3 class="row-title">Organic Food</h3>
+            <p class="row-text">Web Site</p>
           </li>
           <li>
             <img
@@ -131,16 +143,18 @@
               width="360"
               height="300"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h3 class="row-title">Fresh Coffee</h3>
+            <p class="row-text">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!--Footer-->
-    <footer>
-      <a href="./index.html"> WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="footer-link link"
+        ><span class="footer-logo">web</span><span class="footer-logo-text">studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
