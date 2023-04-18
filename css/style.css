@@ -16,7 +16,7 @@
   --color-white: rgba(255, 255, 255, 1);
   --color-dairy: rgba(252, 252, 252, 1);
 }
-*/ .visually-hidden {
+*/ .hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -204,6 +204,7 @@ btn:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   flex: none;
   order: 0;
@@ -333,19 +334,6 @@ btn:focus {
 }
 .footer-link {
   display: inline-flex;
-}
-.footer-logo {
-  width: 44px;
-  height: 21px;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-iris);
 }
 .footer-logo-text {
   width: 71px;
