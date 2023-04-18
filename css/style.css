@@ -16,23 +16,26 @@
   --color-white: rgba(255, 255, 255, 1);
   --color-dairy: rgba(252, 252, 252, 1);
 }
-*/ .hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+*/ 
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 }
 
 body {
   font-size: 16px;
-  font-family: "Roboto",sans-serif;
+  font-family: var(--main-font),sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -62,10 +65,7 @@ body {
 }
 .header-nav {
 }
-.header-link {
-}
-.logo {
-  width: 44px;
+.header-link {width: 44px;
   height: 21px;
   font-family: "Raleway",sans-serif;
   font-weight: 800;
@@ -109,6 +109,7 @@ item:focus {
 .contact-list {
   font-style: normal;
   display: inline-flex;
+  color: var(--color-slate);
 }
 .contact-mail {
   position: absolute;
@@ -144,6 +145,8 @@ item:focus {
   left: 0px;
   top: 150px;
   background-color: var(--color-navy-blue);
+  text-align: center;
+  color: var(--color-white);
 }
 .main-title {
   font-size: 56px;
@@ -151,9 +154,7 @@ item:focus {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center
-  color: var(--color-white);
-}
+}  
 .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -196,7 +197,7 @@ btn:focus {
 .desc-list {
   display: inline-flex;
 }
-.desc-item {
+.desc-item { letter-spacing: 0.02em;
 }
 .desc-title {
   width: 264px;
@@ -204,7 +205,6 @@ btn:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   flex: none;
   order: 0;
