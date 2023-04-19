@@ -54,7 +54,7 @@ body {
   text-decoration: none;
   color: var(--color-slate);
 }
-.link:hover{color: var(--color-iris);}
+.link:hover,
 .link:focus{
 color: var(--color-iris);
 }
@@ -95,7 +95,6 @@ color: var(--color-iris);
   width: 71px;
   height: 21px;
   font-family:var(--logo-font);
-
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -106,10 +105,12 @@ color: var(--color-iris);
   display: inline-flex;
   padding: 0px;
   gap: 24px;
+  letter-spacing: 0.02em;
 }
 .header-item {
   width: 48px;
   height: 24px;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -119,9 +120,10 @@ color: var(--color-iris);
 .contact {font-style: normal;
 }
 .contact-list {
-  
   display: inline-flex;
   color: var(--color-slate);
+  font-family: var(--main-font);
+  letter-spacing: 0.02em;
 }
 .contact-mail {
   position: absolute;
@@ -129,6 +131,7 @@ color: var(--color-iris);
   height: 24px;
   left: 949px;
   top: 30px;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -192,8 +195,7 @@ color: var(--color-iris);
   border-radius: 4px;
   cursor: pointer;
 }
-.btn:hover{background-color:var(--color-ocean);
-  color:var(--color-white);}
+.btn:hover,
 .btn:focus {
   background-color: var(--color-ocean);
   color: var(--color-white);
