@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
-  --main-font: "Roboto";
-  --logo-font: "Raleway";
+  --main-font: "Roboto",sans-serif;
+  --logo-font: "Raleway",sans-serif;
   /* Colors */
   --color-iris: rgba(77, 90, 229, 1);
   --color-ocean: rgba(64, 75, 191, 1);
@@ -78,10 +78,11 @@ color: var(--color-iris);
   font-style: normal;
 }
 .header-nav {
+  
 }
 .header-link {width: 44px;
   height: 21px;
-  font-family: "Raleway",sans-serif;
+  font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -93,7 +94,8 @@ color: var(--color-iris);
 .logo-text {
   width: 71px;
   height: 21px;
-  font-family: "Raleway";
+  font-family:var(--logo-font);
+
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -163,7 +165,7 @@ color: var(--color-iris);
 }
 .main-title {
   font-size: 56px;
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -391,29 +393,24 @@ color: var(--color-iris);
   height: 48px;
   left: 427px;
   top: 168px;
-  
+
 }
 .main-btn {
+  box-sizing: border-box;
   cursor: pointer;
   width: 116px;
   height: 48px;
+  font-family: var(--main-font);
   background: var(--color-cloud);
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
   color: var(--color-iris);
   font-weight: 500;
 }
-.first-main-btn {
-  width: 69px;
-  height: 48px;
-  background-color: var(--color-ocean);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  cursor: pointer;
-  color: var(--color-white);
-  font-weight: 500;
+.portfolio-item{
+
 }
+
 .row-section {
   display: inline-flex;
 }
@@ -437,5 +434,5 @@ color: var(--color-iris);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--color-slate);
+  
 }
