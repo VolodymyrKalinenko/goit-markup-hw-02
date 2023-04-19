@@ -23,7 +23,7 @@
 
 body {
   font-size: 16px;
-  font-family:var(--main-font),sans-serif;
+  font-family:var(--main-font);
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -33,7 +33,7 @@ body {
   color: var(--color-slate) ;
   background-color: var(--color-white)
 }
-.visually-hidden {
+.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -54,8 +54,8 @@ body {
   text-decoration: none;
   color: var(--color-slate);
 }
-.link:hover,
-link:focus{
+.link:hover{color: var(--color-iris);}
+.link:focus{
 color: var(--color-iris);
 }
 
