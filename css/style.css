@@ -22,7 +22,7 @@
 
 
 body {
-  font-family:var(--main-font);
+  font-family: "Roboto",sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -30,8 +30,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-  color: var(--color-slate);
-  background-color: var(--color-white);
+  color: #434455;
+  background-color: #FFFFFF;
 }
 .hidden {
   position: absolute;
@@ -56,7 +56,7 @@ body {
 }
 .link:hover,
 .link:focus{
-color: var(--color-iris);
+color: var(--color-ocean);
 }
 
 
@@ -125,6 +125,10 @@ color: var(--color-iris);
   font-family: var(--main-font);
   letter-spacing: 0.02em;
 }
+.contact-list:hover,
+.contact-list:focus{
+color: var(--color-ocean);
+}
 .contact-mail {
   position: absolute;
   width: 153px;
@@ -136,7 +140,6 @@ color: var(--color-iris);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em
-  color: var(--color-slate);
 }
 .contact-tel {
   position: absolute;
@@ -147,8 +150,6 @@ color: var(--color-iris);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
-
 }
 
 /**
@@ -215,7 +216,7 @@ color: var(--color-iris);
 }
 .desc-list {
   display: inline-flex;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 .desc-item { 
 }
@@ -225,6 +226,7 @@ color: var(--color-iris);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   flex: none;
   order: 0;
