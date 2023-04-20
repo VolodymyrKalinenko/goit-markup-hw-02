@@ -22,7 +22,7 @@
 
 
 body {
-  font-family: var(--main-font);
+  font-family: "Roboto",sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -30,8 +30,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-  color: var(--color-slate);
-  background-color: var(--color-white);
+  color: #434455;
+  background-color: #FFFFFF;
 }
 .hidden {
   position: absolute;
